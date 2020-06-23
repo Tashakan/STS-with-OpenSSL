@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/topalc/CLionProjects/crypt_prj3/TLS_user.h
+string
+-
+iostream
+-
+cstdio
+-
+cmath
+-
+openssl/bn.h
+-
+openssl/sha.h
+-
+openssl/rsa.h
+-
+openssl/aes.h
+-
+openssl/objects.h
+-
+openssl/rand.h
+-
+openssl/bio.h
+-
+openssl/pem.h
+-
+vector
+-
+openssl/cmac.h
+-
+time.h
+-
+
+/home/topalc/CLionProjects/crypt_prj3/main.cpp
+TLS_user.h
+/home/topalc/CLionProjects/crypt_prj3/TLS_user.h
+
